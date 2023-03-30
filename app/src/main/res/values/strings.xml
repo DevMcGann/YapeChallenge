@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">YapeChallenge</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_recipe">Search Recipe</string>
+    <string name="recipe_title">Recipe Title</string>
+    <string name="recipe_description">Recipe Description</string>
+    <string name="recipeimage">recipeImage</string>
+    <string name="title">Title</string>
+    <string name="mapbutton">mapButton</string>
+    <string name="map">Map</string>
+</resources>
