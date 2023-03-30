@@ -13,19 +13,19 @@ Para esta demo,  elegí la clásica arquitectura MVVM + Clean Architecture (data
 Navigation components:  Una activity, hosteando tantos fragments como views necesite en la App,  orquestando la navegación con el Nav Graph y también los argumentos. 
 
 ## Libreria de terceros
-Retrofit para la llamada al "backend" 
-Glide para cargar imagenes desde la web a un container de la vista de XML
-Dagger Hilt para inyección de dependencias
-Google maps
+* Retrofit para la llamada al "backend" 
+* Glide para cargar imagenes desde la web a un container de la vista de XML
+* Dagger Hilt para inyección de dependencias
+* Google maps
 
 
 ## Patrones de diseño
-Observer -> El livedata principal que trae las recetas
-Adapter ->  Usado por ejemplo en el Recycler View Adapter
-Dependency Injections -> Dagger Hilt
-Singleton -> Para tenes una instancia común en todo el proyecto de Retrofit por ejemplo
-Builder -> Para crear la instancia de Retrofit 
-Facadde -> Repository interface 
+* Observer -> El livedata principal que trae las recetas
+* Adapter ->  Usado por ejemplo en el Recycler View Adapter
+* Dependency Injections -> Dagger Hilt
+* Singleton -> Para tenes una instancia común en todo el proyecto de Retrofit por ejemplo
+* Builder -> Para crear la instancia de Retrofit 
+* Facadde -> Repository interface 
 
 ## Testing
 Para realizar las pruebas unitarias del UseCase y del ViewModel, utilicé Junit4 [Los test cases pasan satisfactoriamente]
